@@ -1,0 +1,302 @@
+body{
+    background-color: #000000;
+  }
+  
+      
+  header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 20px 0;
+  }
+  
+  header .logo{
+    margin-left: 30px;
+    height: 25px;
+    width: 289px;
+    cursor: pointer;
+  }
+    
+  header .logo img{
+    height: 100%;
+    width: 100%;
+  }
+    
+  .logo2{
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 15%;
+    right: 40%;
+    z-index: 1500;
+  }  
+    
+  .container{
+    position: relative;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 1300px;
+    height: 90vh;
+    background-color: #060507;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+   
+    
+    
+  nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+  }
+    
+  nav ul li{
+    margin: 0 30px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+  }
+    
+  .s1{
+    width: 70%;
+    height: 100%;
+  }
+    
+  .s2{
+    width: 75%;
+    height: 100%;
+    position: relative;
+  }
+    
+  .s2 .s3{
+    margin: 60px 0 0 50px;
+    width: 100%;
+    height: 400px;
+  }
+    
+  .button{
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+    
+  .prev,.next{
+    position: relative;
+    cursor: pointer;
+    z-index: 2000;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+  }
+    
+  .bar{
+    width: 200px;
+    display: flex;
+    background-color: #FFFFFF;
+  }
+    
+  .s4{
+    width: 10%;
+    height: 3px;
+    position: relative;
+  }
+    
+  .s4 span{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2000;
+    background-color: orangered;
+  }
+    
+  .slider{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 112px;
+    left: 60px;
+    z-index: 2000;
+    font-size: 30px;
+  }
+    
+  .slider p,h5{
+    color: white;
+    font-weight: 500;
+  }
+    
+    
+  .tekst{
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    display: flex;
+    z-index: 1498;
+  }
+    
+  .tekst .japanski{
+    margin-left: -5px;
+  }
+    
+  
+  
+  .tekst .japanski h1{
+    font-size: 100px;
+    letter-spacing: 10px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px goldenrod;
+  }
+  
+  
+  
+  aside{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+  background-color: transparent;
+  }
+    
+  .side{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 60%;
+    background-color: #000;
+    z-index: 1501;
+  }
+    
+  .box{
+    height: 91px;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 20% 80%);
+  }
+    
+    
+  .l{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 30px 0 0;
+  }
+    
+    
+  .l h1{
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+    font-size: 9px;
+    color:#3F3E44;
+    font-family: 'Montserrat', sans-serif;
+  }
+    
+    
+  .r{
+    padding: 5px 0 0 20px;
+    text-align: left;
+    color: #FFFFFF;
+    line-height: 25px;
+  }
+    
+  .r h2{
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+  }
+    
+  
+  .r h3{
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+  }
+    
+  .r p{
+    font-weight: 400;
+    font-size: 7px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .gold{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 250px;
+    z-index: 1500;
+  }
+    
+  .img2{
+    width: 180px;
+    height: 130px;
+    position: absolute;
+    bottom: 2%;
+    right: 19%;
+    z-index: 1500;
+  }
+    
+  .img3{
+    width: 160px;
+    height: 100%;
+    max-height: 350px;
+    position: absolute;
+    top: 12%;
+    right: 19%;
+    z-index: 1500;
+  }
+    
+  
+    
+  footer{
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+  }
+    
+  .txt{
+    padding-bottom:15px ;
+    width: 350px;
+    z-index: 1000;
+    color: #FFFFFF;
+    opacity: 0.3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    line-height: 20px;
+    font-weight: 300;
+  }
+  
+  .tekst .japanski:last-child{
+    padding-left: 20px;
+  }
